@@ -25,6 +25,13 @@
             "Lamo\\Stubs\\Database\\Seeders\\": "database/seeders/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lamo\\Stubs\\Providers\\ServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }

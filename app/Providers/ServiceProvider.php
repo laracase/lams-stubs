@@ -6,7 +6,12 @@ use Layer\Base\Support\BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
 {
-    public function loadCommands()
+    public function register(): void
+    {
+        $this->app->register(EventServiceProvider::class);
+    }
+
+    public function loadCommands(): void
     {
         $this->commands([
 //            NoticeCommand::class
