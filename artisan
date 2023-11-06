@@ -25,22 +25,10 @@ require __DIR__.'/../../vendor/autoload.php';
 | or another output device for the developers. Here goes nothing!
 |
 */
-/*
-|--------------------------------------------------------------------------
-| Create The Application
-|--------------------------------------------------------------------------
-*/
-putenv('APP_PACKAGES_CACHE=storage/cache/packages.php');
-putenv('APP_SERVICES_CACHE=storage/cache/services.php');
+$app = require_once __DIR__.'/../../bootstrap/app.php';
 
-$app = new Layer\Base\App(__DIR__);
+$app->useDatabasePath(__DIR__ . '/database');
 
-/*
-|--------------------------------------------------------------------------
-| Bind Important Interfaces
-|--------------------------------------------------------------------------
-*/
-$app->register(Layer\Base\Providers\AppServiceProvider::class);
 
 /** @var Console $kernel */
 $kernel = $app->make(Kernel::class);

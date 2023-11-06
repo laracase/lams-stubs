@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lamo\\Aegis\\": "app"
+            "Lamo\\Stubs\\": "app"
         }
     },
     "autoload-dev": {
