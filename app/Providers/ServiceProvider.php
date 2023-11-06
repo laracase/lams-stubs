@@ -25,6 +25,6 @@ class ServiceProvider extends BaseServiceProvider
 
     public function loadModule(): string
     {
-        return realpath(__DIR__ . '/..');
+        return realpath(__DIR__ . '/../..');
     }
 }
