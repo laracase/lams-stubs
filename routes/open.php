@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Lamo\Cases\Controllers\Open\ItemController;
+use Lamo\Stubs\Controllers\Open\ItemController;
 
 Route::group([
     'prefix' => 'open/stubs',

@@ -1,7 +1,7 @@
 <?php
 
-use App\stubs\app\Controllers\Admin\ItemController;
 use Illuminate\Support\Facades\Route;
+use Lamo\Stubs\Controllers\Admin\ItemController;
 
 Route::group([
     'middleware' => ['admin'],

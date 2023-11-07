@@ -1,7 +1,7 @@
 <?php
 
-use App\stubs\app\Controllers\Mine\ItemController;
 use Illuminate\Support\Facades\Route;
+use Lamo\Stubs\Controllers\Mine\ItemController;
 
 Route::group([
     'middleware' => ['client:user'],
