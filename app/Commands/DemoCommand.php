@@ -11,7 +11,7 @@ class DemoCommand extends BaseCommand
      *
      * @var string
      */
-    protected $signature = 'stubs:demo';
+    protected $signature = 'lamo:stubs-demo';
 
     /**
      * The console command description.
@@ -24,7 +24,7 @@ class DemoCommand extends BaseCommand
      * Execute the console command.
      *
      */
-    public function handle()
+    public function handle(): void
     {
         var_dump('test');
     }
