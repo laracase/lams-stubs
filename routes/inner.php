@@ -5,7 +5,7 @@ use Lamo\Stubs\Controllers\Inner\ConsoleController;
 
 Route::group([
     'middleware' => ['inner'],
-    'prefix' => 'inner/forum',
+    'prefix' => 'inner/stubs',
 ], function () {
     Route::group([
         'prefix' => 'console',
