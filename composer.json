@@ -1,6 +1,6 @@
 {
-    "name": "lamo/stubs",
-    "type": "laralib-lamo",
+    "name": "lams/stubs",
+    "type": "laralib-lams",
     "description": "laravel lib",
     "license": "proprietary",
     "authors": [
@@ -15,20 +15,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Lamo\\Stubs\\": "app"
+            "Lams\\Stubs\\": "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lamo\\Stubs\\Tests\\": "tests/",
-            "Lamo\\Stubs\\Database\\Factories\\": "database/factories/",
-            "Lamo\\Stubs\\Database\\Seeders\\": "database/seeders/"
+            "Lams\\Stubs\\Tests\\": "tests/",
+            "Lams\\Stubs\\Database\\Factories\\": "database/factories/",
+            "Lams\\Stubs\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lamo\\Stubs\\Providers\\ServiceProvider"
+                "Lams\\Stubs\\Providers\\ServiceProvider"
             ]
         }
     },

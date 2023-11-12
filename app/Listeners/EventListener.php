@@ -1,8 +1,8 @@
 <?php
 
-namespace Lamo\Stubs\Listeners;
+namespace Lams\Stubs\Listeners;
 
-use Lamo\Stubs\Jobs\ExampleJob;
+use Lams\Stubs\Jobs\ExampleJob;
 use Layer\Base\Stream\Event;
 
 class EventListener

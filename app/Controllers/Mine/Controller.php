@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Mine;
+namespace Lams\Stubs\Controllers\Mine;
 
 
 use Layer\Base\Support\BaseController;

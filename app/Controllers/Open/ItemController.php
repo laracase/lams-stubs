@@ -1,8 +1,8 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Open;
+namespace Lams\Stubs\Controllers\Open;
 
-use Lamo\Stubs\Models\Item;
+use Lams\Stubs\Models\Item;
 use Illuminate\Http\JsonResponse;
 
 class ItemController extends Controller

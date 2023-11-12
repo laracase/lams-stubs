@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Lamo\Stubs\Controllers\Inner\ConsoleController;
+use Lams\Stubs\Controllers\Inner\ConsoleController;
 
 Route::group([
     'middleware' => ['inner'],

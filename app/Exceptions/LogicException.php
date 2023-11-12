@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Exceptions;
+namespace Lams\Stubs\Exceptions;
 
 use Layer\Base\Exceptions\BaseLogicException;
 

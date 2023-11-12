@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Tests;
+namespace Lams\Stubs\Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;

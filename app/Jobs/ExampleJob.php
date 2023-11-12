@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Jobs;
+namespace Lams\Stubs\Jobs;
 
 use Layer\Base\Stream\Job;
 

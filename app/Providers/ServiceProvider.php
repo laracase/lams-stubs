@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Providers;
+namespace Lams\Stubs\Providers;
 
 use Layer\Base\Support\BaseServiceProvider;
 

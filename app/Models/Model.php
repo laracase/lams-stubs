@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Models;
+namespace Lams\Stubs\Models;
 
 use Layer\Dbal\Dao\DaoModel;
 

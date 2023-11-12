@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Inner;
+namespace Lams\Stubs\Controllers\Inner;
 
 use Layer\Base\Support\BaseController;
 

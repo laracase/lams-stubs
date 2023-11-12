@@ -1,8 +1,8 @@
 <?php
 
-namespace Lamo\Stubs\Providers;
+namespace Lams\Stubs\Providers;
 
-use Lamo\Stubs\Listeners\EventListener;
+use Lams\Stubs\Listeners\EventListener;
 use Layer\Base\Stream\Event;
 use Layer\Base\Stream\ServiceProvider;
 

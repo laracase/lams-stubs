@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Scopes;
+namespace Lams\Stubs\Scopes;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

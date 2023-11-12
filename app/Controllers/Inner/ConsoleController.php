@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Inner;
+namespace Lams\Stubs\Controllers\Inner;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Artisan;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Admin;
+namespace Lams\Stubs\Controllers\Admin;
 
-use Lamo\Stubs\Exceptions\LogicException;
-use Lamo\Stubs\Models\Item;
+use Lams\Stubs\Exceptions\LogicException;
+use Lams\Stubs\Models\Item;
 use Illuminate\Http\JsonResponse;
 
 class ItemController extends Controller

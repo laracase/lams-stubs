@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Models;
+namespace Lams\Stubs\Models;
 
 
 class Item extends Model

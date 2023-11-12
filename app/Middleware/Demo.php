@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Middleware;
+namespace Lams\Stubs\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Commands;
+namespace Lams\Stubs\Commands;
 
 use Layer\Base\Support\BaseCommand;
 
@@ -11,7 +11,7 @@ class DemoCommand extends BaseCommand
      *
      * @var string
      */
-    protected $signature = 'lamo:stubs-demo';
+    protected $signature = 'lams:stubs-demo';
 
     /**
      * The console command description.

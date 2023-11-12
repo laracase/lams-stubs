@@ -1,9 +1,9 @@
 <?php
 
-namespace Lamo\Stubs\Controllers\Mine;
+namespace Lams\Stubs\Controllers\Mine;
 
-use Lamo\Stubs\Exceptions\LogicException;
-use Lamo\Stubs\Models\Item;
+use Lams\Stubs\Exceptions\LogicException;
+use Lams\Stubs\Models\Item;
 use Illuminate\Http\JsonResponse;
 use Omics\Dao\Eloquent\Builder;
 

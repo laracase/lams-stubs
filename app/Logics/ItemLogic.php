@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamo\Stubs\Logics;
+namespace Lams\Stubs\Logics;
 
 class ItemLogic extends Logic
 {
