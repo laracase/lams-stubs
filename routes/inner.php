@@ -5,7 +5,7 @@ use Lams\Stubs\Controllers\Inner\ConsoleController;
 
 Route::group([
     'middleware' => ['inner'],
-    'prefix' => 'inner/stubs',
+    'prefix' => 'stubs/inner',
 ], function () {
     Route::group([
         'prefix' => 'console',

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Lams\Stubs\Controllers\Open\ItemController;
 
 Route::group([
-    'prefix' => 'open/stubs',
+    'prefix' => 'stubs/open',
 ], function () {
     Route::group([
         'prefix' => 'item',

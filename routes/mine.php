@@ -5,7 +5,7 @@ use Lams\Stubs\Controllers\Mine\ItemController;
 
 Route::group([
     'middleware' => ['client:user'],
-    'prefix' => 'mine/stubs',
+    'prefix' => 'stubs/mine',
 ], function () {
     Route::group([
         'prefix' => 'item',

@@ -5,7 +5,7 @@ use Lams\Stubs\Controllers\Admin\ItemController;
 
 Route::group([
     'middleware' => ['admin'],
-    'prefix' => 'admin/stubs',
+    'prefix' => 'stubs/admin',
 ], function () {
     Route::group([
         'prefix' => 'item',
