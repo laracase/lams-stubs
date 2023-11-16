@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
 
-    // 版本，大于 0 才会运行
+    // run when larger than 0
     public int $version = 0;
 
     protected string $table = '';
