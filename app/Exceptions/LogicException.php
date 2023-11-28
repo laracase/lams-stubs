@@ -2,9 +2,9 @@
 
 namespace Lams\Stubs\Exceptions;
 
-use Layer\Base\Exceptions\BaseLogicException;
+use Layer\Base\Support\BaseException;
 
-class LogicException extends BaseLogicException
+class LogicException extends BaseException
 {
     protected array $errors = [
         'error' => [
